@@ -5,7 +5,7 @@
   tasks:
     - name: Copy file with owner and permissions
       ansible.builtin.copy:
-        src: ./files/testile
+        src: ./files/testfile
         dest: /tmp/testfile
         decrypt: yes
         owner: root
