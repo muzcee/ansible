@@ -8,6 +8,6 @@
         src: ./files/testfile
         dest: /tmp/testfile
         decrypt: yes
-        owner: root
-        group: root
+        owner: smv87815
+        group: smv87815
         mode: '0644'
