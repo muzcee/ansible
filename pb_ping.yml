@@ -1,8 +1,6 @@
 ---
 - name: Ping all hosts as a playbook example
   hosts: all
-  become: yes
   tasks:
     - name: Ping hosts with ping module
       ping:
-
