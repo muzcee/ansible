@@ -9,5 +9,5 @@
         dest: /tmp/testfile
         decrypt: yes
         owner: smv87815
-        group: smv87815
+        group: muzcee
         mode: '0644'
