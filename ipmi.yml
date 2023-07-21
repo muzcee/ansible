@@ -1,0 +1,11 @@
+---
+- name: Copy files using owner, group and permissions
+  hosts: localhost
+
+  tasks:
+    - name: Ensure machine is powered on
+      community.general.ipmi_power:
+        name: 192.168.1.201
+        user: root
+        password: REMEMBERTHIS
+        state: 'on'
