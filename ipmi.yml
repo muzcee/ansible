@@ -1,6 +1,7 @@
 ---
 - name: Copy files using owner, group and permissions
   hosts: localhost
+  gather_facts: False
 
   tasks:
     - name: Ensure machine is powered on
