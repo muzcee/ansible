@@ -1,0 +1,8 @@
+---
+- name: shutdown server
+  hosts: ubuntu1
+  gather_facts: False
+
+  tasks:
+    - name: Execute the command in remote shell; stdout goes to the specified file on the remote
+      ansible.builtin.shell: /usr/bin/ipmitool -I lanplus -U root -P REMEMBERTHIS -H 192.168.1.201 power on
