@@ -1,5 +1,5 @@
 --
-- name: Copy files using owner, group and permissions
+- name: shutdown server
   hosts: localhost
   gather_facts: False
   vars:
@@ -11,5 +11,5 @@
         name: 192.168.1.201
         user: root
         password: REMEMBERTHIS
-        state: 'shutdown'
+        state: 'on'
       delegate_to: ubuntu1
