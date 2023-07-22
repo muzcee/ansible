@@ -2,8 +2,6 @@
 - name: shutdown server
   hosts: localhost
   gather_facts: False
-  vars:
-    ansible_python_interpreter: /usr/bin/python3
 
   tasks:
     - name: Ensure machine is powered on
