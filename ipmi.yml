@@ -10,4 +10,3 @@
         user: root
         password: REMEMBERTHIS
         state: 'on'
-      delegate_to: ubuntu1
