@@ -11,3 +11,4 @@
         owner: smv87815
         group: muzcee
         mode: '0644'
+      delegate_to: rancher
