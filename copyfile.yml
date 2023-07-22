@@ -1,6 +1,6 @@
 ---
 - name: Copy files using owner, group and permissions
-  hosts: all
+  hosts: localhost
 
   tasks:
     - name: Copy file with owner and permissions
