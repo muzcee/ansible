@@ -1,4 +1,4 @@
---
+---
 - name: shutdown server
   hosts: localhost
   gather_facts: False
